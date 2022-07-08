@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-image:url(https://m.media-amazon.com/images/M/MV5BMDY1ZDQxYmMtMWQ4NS00NjQyLTliY2UtZmU4NDg0ZDQ5ZmFmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: aqua;
+}
+
+h2 {
+	font-size: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 50px;
+    color: aqua;
+}
+
+h4 {
+	font-size: 70%;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+    color: aquamarine;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em
+}
+
+.a {
+	text-decoration: rgb(red, green, blue);
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 10px;
+    font-size: 30px;
+    color: blue;
+	font-size:larger;
+
+}
+
+.large {
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 45px;
+	padding: 15px 40px;
+	letter-spacing: 1px;
+    color: aqua;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid firebrick;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.btn-outline:hover {
+	background: black;
+	color: white;
+}
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: white;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 12px;
+}
+
+#navbar img {
+	height: 200px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Showcase */
+#showcase {
+	background: url('/img/35158.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#showcase .btn {
+	margin-top: 250px;
+}
+
+/* Projects */
+#projects {
+	padding: 80px 0;
+}
+
+.projects-row {
+	display: flex;
+}
+
+.projects-row img {
+	width: 100%;
+    border: 5%;
+}
+
+/* About */
+#about {
+	padding: 80px 0;
+	background: #f9f9f9;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+}
+
+/* Contact */
+#contact {
+	padding: 80px 0;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 33%;
+	text-align: center;
+}
+
+.contact-row-icon img {
+	height: 60px;
+}
+
+/* Footer */
+#mainfooter {
+	background: green;
+	text-align: center;
+	padding: 30px;
+}
+
+.p1{
+    text-align: center;
+  font-size: 100px;
+}	
+
+.p2{
+	text-align: center;
+	font-size: 50px;
+}
+.img1{
+ object-fit:cover;
+}
